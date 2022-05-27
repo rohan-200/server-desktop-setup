@@ -1,0 +1,1 @@
+# rum server-setup.sh using sudo sh server-setup.sh
