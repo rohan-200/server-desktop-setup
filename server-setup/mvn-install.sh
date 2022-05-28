@@ -9,7 +9,7 @@ BBlack='\033[1;30m'       # Black
 echo ${Green} Updating and Upgrading this System
 sudo apt-get install maven -y
 if [ $? -eq 0 ]; then
-   echo DONE
+   echo MAVEN DONE
    sleep 2
 else
    echo ${Red}FAIL

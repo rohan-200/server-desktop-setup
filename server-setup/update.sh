@@ -9,7 +9,7 @@ BBlack='\033[1;30m'       # Black
 echo ${Green} Updating and Upgrading this System
 sudo apt-get update && sudo apt-get upgrade -y
 if [ $? -eq 0 ]; then
-   echo DONE
+   echo UPDATE DONE
    sleep 2
 else
    echo ${Red}FAIL

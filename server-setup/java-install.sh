@@ -16,7 +16,7 @@ if [ $? -eq 0 ];then
     echo ${Green}Download successfull
     sudo dpkg -i jdk-12.0.2_linux-x64_bin.deb
     if [ $? -eq 0 ];then
-        echo ${Green}jdk 12 successfully installed 
+        echo ${Green} jdk 12 successfully installed 
         sleep 2
     else
         echo ${Red}Failed to install
